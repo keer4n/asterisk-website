@@ -1,0 +1,606 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="" lang="en-US">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Asterisk Pvt. Ltd.</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="_css/layout.css" rel="stylesheet" type="text/css">
+<link href="_css/styles.css" rel="stylesheet" type="text/css">
+<!--about us slider starts here-->
+
+<link rel="stylesheet" type="text/css" href="_css/style.css" />
+<link rel="stylesheet" type="text/css" href="_css/jquery.jscrollpane.css" media="all" />
+
+<!--about us slider ends here-->
+
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:50px) and (max-width:500px)" href="_css/screen_layout_small.css" />
+<link rel="stylesheet" type="text/css" media="only screen and (min-width:501px) and (max-width:800px)" href="_css/screen_layout_medium.css" />
+		
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizer (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+
+
+
+<
+<!-- my inclusions starts here-->
+
+<link rel="icon" type="image/png" href="_images/favicon.png">
+
+<!-- my inclusions ends here-->
+
+<!--google maps api starts here-->
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+    <script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(27.6834354,85.3340663),
+          zoom: 16,
+		
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+		
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+<!--google maps api ends here-->
+
+
+<!-- BX-SLIDER inclusions starts here-->
+<!-- jQuery library (served from Google) -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<!-- bxSlider Javascript file -->
+<script src="jquery.bxslider.min.js"></script>
+<!-- bxSlider CSS file -->
+<link href="jquery.bxslider.css" rel="stylesheet" />
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+  auto: true,
+  autoControls: false,
+  speed:1000,
+  autoHover:true,
+  
+});
+});
+</script>
+<!-- BX-SLIDER inclusions ends here-->
+
+
+</head>
+<body>
+
+<!--Header starts here-->
+<div id="header" >
+    <div id="header2">
+        <div id="logo" > <img  width = "200" height="102" src="_images/logo.jpeg" alt="LOGO"/></div>
+        <div id="nav" >
+            <div  style="font-family:Lato; font-size:18px; font-variant:small-caps;">
+              <ul>
+                <li><a href="#home"  ><b class="home-icon"></b> Home</a></li>
+                <li><a href="#services-anchor"><b class="services-icon"></b> Services</a></li>
+                <li><a href="#about"><b class="aboutus-icon"></b>About</a></li>
+                
+                <li><a href="#contacts"><b class="contacts-icon"></b>Contact</a></li>
+              </ul>
+            </div>
+         </div>
+    </div>
+</div>
+
+
+
+    <!--Header ends here-->
+<div style="max-width:1024px; margin: 0 auto">
+<div class="fluid">
+<a id="home"></a>
+	<pre>
+	</pre>
+</div>
+
+
+<!--Slider page starts here-->
+
+<div id="slider_page" class="fluid" style="margin-top:102px">
+	<ul class = "bxslider">
+		<li><img src="_images/4.jpg" width="1024" height="500" alt="slider1" title="slider1"/></li>
+		<li><img src="_images/5.jpg" width="1024" height="500" alt="slider2" title="slider2"/></li>
+		
+	</ul>
+    
+        
+</div>
+<div id="slider-replace">
+</div>
+<!--Slider page ends here-->
+
+<div class="fluid">
+	<a id="services-anchor"></a>
+	<pre>
+	</pre>
+</div>
+<!--Services page starts here-->
+
+<div id="services_page" class="fluid">
+	<div id="page1" >
+      <div class="services">
+            <div class="main-div">
+            <div class="image-holder">
+            <div class="top-bottom-wrap">
+                <div class="top-div " >
+                    <p class="heading1" >
+                        SERVICES
+                    </p>
+                    <p class="paragraph">
+                    </p>
+                    <p class="paragraph">
+                        We are driven by perfection and urge to create high quality ICT solutions and dedicated support to our customers.<br/>
+							We give wings to your business, you decide where to fly.
+                    </p>
+                </div>
+                <!--end of top-div-->
+            
+            <div class="bottom-div" style="margin: 12px">
+                <div class="bottom-div-1">
+                    <div class="bottom-div-1-top">
+                        <img src="_images/researching.png" alt="researching" />
+                    </div>
+                    <div class="bottom-div-1-bottom">
+                        <p class = "heading2">
+                            REALIZE
+                        </p>
+                        <p class="paragraph2">
+                            We help your expectations meet the reality by providing quality services.
+                        </p>
+                    </div>
+                </div>
+                <!--end of bottom-div-1-->
+                <div class="bottom-div-2">
+                    <div class="bottom-div-2-top">
+                        <img src="_images/design.png" alt="design" />
+                    </div>
+                    <div class="bottom-div-2-bottom">
+                        <p class = "heading2">
+                            DESIGN
+                        </p>
+                        <p class="paragraph2">
+                           We create usable, responsive solutions that are nice to look as to use.
+                        </p>				
+                    </div>
+                </div>
+                <!--end of bottom-div-2-->			
+                <div class="bottom-div-3">
+                    <div class="bottom-div-3-top">
+                        <img src="_images/development.png" alt="development" />
+                    </div>
+                    <div class="bottom-div-3-bottom">
+                        <p class = "heading2">
+                            DEVELOPMENT
+                        </p>
+                        <p class="paragraph2">
+                        We develop to empower your business, products and services. Grow with technology, we will help.    
+						</p>
+                    </div>
+                </div>
+                <!--end of bottom-div-3-->			
+                <div class="bottom-div-4">
+                    <div class="bottom-div-4-top">
+                        <img src="_images/launch.png" alt="launch" />
+                    </div>
+                    <div class="bottom-div-4-bottom">
+                        <p class = "heading2">
+                            LAUNCH
+                        </p>
+                        <p class="paragraph2">
+                            We launch your website from a trusted cloud hosting environment.
+                        </p>
+                    </div>
+                </div>
+                <!--end of bottom-div-4-->			
+                
+                
+                
+            </div>
+            <!--end of bottom-div-->
+            </div>
+        
+        </div>
+        </div>
+        </div>
+	</div><!--closing of page1-->
+</div>
+<!--Services page ends here-->
+
+<div class="fluid">
+	<a id="about"></a>
+    <pre>
+    </pre>
+</div>
+
+<!--About Us page starts here-->
+<div id="aboutus" class="fluid">
+<div class="aboutus1">
+  <div class="main-div2">
+  	
+  	
+        <div class="top-div">
+        
+           	<p class="heading1">Who we are and What we do</p><br>
+       		    
+        	<p class="paragraph" >We are a motivated team of highly qualified engineers, aiming perfection in everything we do.
+                </p>
+            <p class="meetus ontop heading2" style="color:#FFF">OUR TEAM</p>
+        </div>
+        <div class="container">
+			<!--  Start of the div -->
+			<div id="ca-container" class="ca-container">
+            <div class="ca-nav"><span class="ca-nav-prev">Previous</span><span class="ca-nav-next">Next</span></div>
+            	
+				<div class="ca-wrapper" style="font-family:lato">
+					<div class="ca-item ca-item-1">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Shikhar Basnet</p></center>
+          <center><p class="specialist" style="color:#99bc69"> Design Master </p></center>
+          <ul>
+          <li><a href="https://www.facebook.com/shikharb" target="_blank"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						</div>
+					</div>
+                    <!--  End of the div1 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-2">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Saugat Gautam</p></center>
+          <center><p class="specialist" style="color:#99bc69"> Developer Ninja </p></center>
+          <ul>
+          <li><a href="https://www.facebook.com/saugat135" target="_blank"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-3">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							<center><p class="username" style="color:#FFF"> Kiran Gurung</p></center>
+          <center><p class="specialist" style="color:#99bc69"> SEO Guru </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                     <div class="ca-item ca-item-4">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							<center><p class="username" style="color:#FFF"> Sanid Prajapati</p></center>
+          <center><p class="specialist" style="color:#99bc69"> Research Expert </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-5">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Umesh Timilsina</p></center>
+          <center><p class="specialist" style="color:#99bc69"> General Manager </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-6">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Raushan Mahaset</p></center>
+          <center><p class="specialist" style="color:#99bc69"> JOb Analyist </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-7">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Chetana Moktan</p></center>
+          <center><p class="specialist" style="color:#99bc69">Visionary </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						 
+						</div>
+					</div>
+                    <!--  end of the div2 -->
+                    
+                    <!--  Start of the div1 -->
+                    <div class="ca-item ca-item-8">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Bijay Pathak</p></center>
+          <center><p class="specialist" style="color:#99bc69">  Expert</p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						 
+						</div>
+					</div>
+                    
+                    <div class="ca-item ca-item-9">
+						
+                        <div class="size">
+							<div class="ca-icon"></div>
+							
+						
+						<center><p class="username" style="color:#FFF"> Kzitiz Paudel</p></center>
+          <center><p class="specialist" style="color:#99bc69"> Guffadi Master </p></center>
+          <ul>
+          <li><a href="http://www.facebook.com"><img src="_images/fb.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/twitter.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/google+.png" /></a></li>
+          <li><a href="http://www.facebook.com"><img src="_images/linkedin.png" /></a></li>
+          </ul>
+						 
+						</div>
+					</div>
+                    
+                    <!--  end of the div2 -->
+                    
+            </div>
+		</div>          
+        
+    </div>
+  </div>
+</div>
+</div><!-- 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script> -->
+		<script type="text/javascript" src="_js/jquery.easing.1.3.js"></script>
+		<!-- the jScrollPane script -->
+		<script type="text/javascript" src="_js/jquery.mousewheel.js"></script>
+		<script type="text/javascript" src="_js/jquery.contentcarousel.js"></script>
+        <!-- <script type="text/javascript" src="js/jquery.automatic.js"></script> -->
+		<script type="text/javascript">
+			$('#ca-container').contentcarousel();
+		</script>
+
+
+
+<!--About Us page ends here-->
+<div class="fluid">
+	<a id="contacts"></a>
+    <pre>
+    </pre>
+</div>
+
+<!--Contacts page starts here-->
+<div id="contactus" class="fluid">
+	
+    <div id="page4">
+    <div id ="bgholder-page4">
+        
+        <div id="contact-top">
+            <p  class="heading1">CONTACT US</p>
+            <p class="paragraph" style="padding:10px;">
+				Can you think of anything which requires us? We will be more than happy to help you out. <br>Please, Feel Free to contact us.
+			</p>
+        	<br>
+            <br>
+        </div>
+        
+        <div id="contact-bottom">
+            <div id="contact-left" >
+                <h2 class="heading2" style="text-align:justify">Get in Touch:</h2>
+                <br><br>
+                <div id="contact-address" >
+                    <p class="small_title">Asterisk Pvt. Ltd.</p>
+                    <p class="paragraph3">
+                    Sankhamul, New Baneshwor.<br>
+                    Kathmandu, Nepal.
+                    </p>
+                    <br>
+                    <p class="paragraph3">
+                        Phone:9849655379<br>
+                        Email:asterisks2015@gmail.com
+                    </p>
+                </div>
+                <div id="contact-map-replace" class="paragraph">
+            	<a href=					       "https://www.google.com/maps/place/Asterisk+Pvt+Ltd/@27.679427,85.337408,16z/data=!4m2!3m1!1s0x0:0x69ef484ec0182ae7?hl=en-US" target="_blank">   Find us on google maps. </a>
+            </div>
+                <div id="contact-map" >
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d883.2781946442451!2d85.33637799999998!3d27.68290900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19952df3df8b%3A0x69ef484ec0182ae7!2sAsterisk+Pvt+Ltd!5e0!3m2!1sen!2snp!4v1425731591315" width="240" height="233" frameborder="0" style="border:0"></iframe>
+                </div>
+            
+            </div>
+            
+            
+            <div id="contact-right" >
+                
+                <h2 class="heading2" style="text-align:justify">Let's Talk</h2><br><br>
+                
+                <form action="mail.php" method="post">
+                    
+                        <input id="contact-name" type="text" name="name"  placeholder="Name" style="font-family:lato;">
+                        <input id="contact-email" type="email" name="email"  placeholder="Email Address" style="font-family:lato;">
+                    <div id="msg">
+                        <textarea id = "msg_text" name="message" style="margin-top:20px; font-family:lato;" placeholder="Your Message...."></textarea>
+                     </div>
+                        <input id="contact-button" type="submit" name="submit" value="SEND" onclick="click" >
+                 
+                </form>
+				<script id ="click">
+					alert("thanks");
+				</script>
+            
+            </div>
+        </div>
+    </div>
+	</div>
+</div>
+</div>
+<!--Contacts page ends here-->
+
+<!--Footer starts here-->
+
+<div id="footer" class="fluid" style="width:100% background-color:#FFF">
+	<div id="footer_icons">
+		<a href="https://www.facebook.com/asterisk2015" target="_blank"><img src="_images/fb.png" /></a>
+		<img src="_images/twitter.png"/>
+		<img src="_images/google+.png"/>
+		<img src="_images/linkedin.png"/>
+		<img src="_images/tumblr.png">
+		
+	</div>
+    <div id="footer_line" class="paragraph2" style="color:#152F3E">
+    	<p>2015 &#xa9; All rights reserved.</p>
+    </div>
+</div>
+<!--Footer ends here-->
+
+
+<!--Smooth Scroller Starts Here-->
+<script type="text/javascript">
+$(document).ready(function(){
+                $(".contactLink").click(function(){
+                    if ($("#contactForm").is(":hidden")){
+                        $("#contactForm").slideDown("slow");
+                    }
+                    else{
+                        $("#contactForm").slideUp("slow");
+                    }
+                });
+            });
+            function closeForm(){
+                $("#messageSent").show("slow");
+                setTimeout('$("#messageSent").hide();$("#contactForm").slideUp("slow")', 2000);
+           }
+
+$(document).ready(function() {
+  function filterPath(string) {
+    return string
+      .replace(/^\//,'')
+      .replace(/(index|default).[a-zA-Z]{3,4}$/,'')
+      .replace(/\/$/,'');
+  }
+  $('a[href*=#]').each(function() {
+    if ( filterPath(location.pathname) == filterPath(this.pathname)
+    && location.hostname == this.hostname
+    && this.hash.replace(/#/,'') ) {
+      var $targetId = $(this.hash), $targetAnchor = $('[name=' + this.hash.slice(1) +']');
+      var $target = $targetId.length ? $targetId : $targetAnchor.length ? $targetAnchor : false;
+       if ($target) {
+         var targetOffset = $target.offset().top -102;
+         $(this).click(function() {
+           $('html, body').animate({scrollTop: targetOffset}, 1000);
+           var d = document.createElement("div");
+        d.style.height = "101%";
+        d.style.overflow = "hidden";
+        document.body.appendChild(d);
+        window.scrollTo(0,scrollToM);
+        setTimeout(function() {
+        d.parentNode.removeChild(d);
+            }, 10);
+           return false;
+         });
+      }
+    }
+  });
+});
+/*! Smooth Scroll - v1.4.5 - 2012-07-22
+* Copyright (c) 2012 Karl Swedberg; Licensed MIT, GPL */
+</script>
+<!--Smooth Scroller Ends Here-->
+
+</body>
+</html>

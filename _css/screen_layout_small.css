@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+/* Layout Small Screens */
+
+.heading1{
+	font-family:LatoLight, helvetica ;
+	font-size:20px;
+	text-align:center;
+	color:white;
+}
+.heading2{
+	font-family:LatoLight, helvitica;
+	font-size:10px;
+	text-align:center;
+	color:white;
+}
+.small_title{
+	font-family:LatoBold, helvitica;
+	font-size:7px;
+	text-align:justify;
+	color:white;
+}
+.paragraph{
+	font-family:Lato, helvitica;
+	font-size:7px;
+	color:#FFF;
+	text-align:center;
+}
+.paragraph2{
+	font-family:Lato, helvitica;
+	font-size:7px;
+	color:#FFF;
+	text-align:center;
+}
+.paragraph3{
+	font-family:Lato, helvitica;
+	font-size:7px;
+	color:white;
+	text-align: justify;
+}
+.username{
+	font-size:12px;
+	padding-bottom:6px;
+	
+}
+
+.specialist{
+	font-size:12px;
+}
+
+
+/*HEADER STYLES STARTS!!*/
+#nav{
+	display:none;
+	}
+#header{
+	position:absolute;
+	}
+#logo img{
+	display:block;
+	margin-left: auto;
+	margin-right:auto;
+	}
+#logo{
+	float:none;
+	}
+/*HEADER STYLES ENDS!!*/
+
+/*SLIDER STYLES STARTS!!*/
+#slider-replace{
+	background:url(../_images/small.jpg) no-repeat center top;
+	min-height:240px;
+	margin-top:102px;
+	
+	}
+#slider_page{
+	display:none;
+	}
+/*SLIDER STYLES ENDS!!*/
+
+/*SERVICES STYLES STARTS!!*/
+.bottom-div-1, .bottom-div-2, .bottom-div-3, .bottom-div-4 {
+    margin-left: 2.3%;
+    margin-bottom: 40px;
+    margin-top: 27px;
+    width: 45%;
+    min-height: 220px;
+}
+/*SERVICES STYLES ENDS!!*/
+
+/*ABOUT STYLES STARTS!!*/
+.meetus{
+	width:100px;
+	height:43px;
+	}
+.ca-item {
+    position: relative;
+    float: left;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+li img {
+	height:32px;
+	width:32px;
+	margin-bottom:5px;
+	}
+/*ABOUT STYLES ENDS!!*/
+
+/*CONTACT STYLES STARTS!!*/
+#contact-map{
+	display:none;
+	}
+#contact-left{
+	float:none;
+	margin-left:20px;
+	margin-bottom:50px;
+	width:100%;
+	}
+#contact-map-replace{
+	visibility:visible;
+	}
+#contact-map-replace a{
+	text-decoration:none;
+	}
+#contact-address{
+	margin-top:-40px;
+	}
+#contact-right{
+	float:none;
+	width:80%;
+	margin-left:20px;
+	}
+#contact-name{
+	float:none;
+	width:92%;
+	margin-bottom:10px;
+	}
+#contact-email{
+	float:none;
+	width:92%;
+	}
+/*CONTACT STYLES ENDS!!*/
+
+#footer_icons {
+    width: 75%;
+    margin: 0px auto;
+    padding: 12px;
+    text-align: center;
+}
+#footer_icons img{
+	width:32px;
+	height:32px;
+	padding:5px;
+	}

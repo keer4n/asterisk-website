@@ -1,0 +1,161 @@
+/* Circular Content Carousel Style */
+.ca-container{
+	position:relative;
+	margin:25px auto 20px auto;
+	width:92%;
+	height:380px;
+	/*background-color:#62505f;*/
+}
+.ca-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+	
+	
+}
+.ca-item{
+	position:relative;
+	float:left;
+	width:33.33%;
+	height:100%;
+	text-align:center;
+}
+
+
+.ca-item-main{
+	/*padding:20px;
+	position:absolute;
+	top:5px;
+	left:5px;
+	right:5px;
+	bottom:5px;
+	/*background:#fff;
+	background-color:#62505f;
+	overflow:hidden;
+	-moz-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	-webkit-box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	box-shadow:1px 1px 2px rgba(0,0,0,0.2);
+	width: 260px;
+	min-height:380px;*/
+	
+	/*width: 260px;
+	min-height:380px;*/
+	
+}
+.ca-icon{
+	width:90%;
+	height:189px;
+	position:relative;
+	margin:0 auto;
+	background:transparent url(../_images/shikhar.jpg) no-repeat center center;
+}
+.ca-item-2 .ca-icon{
+	/*width: 150px;
+	height: 150px;
+	margin-left:50px;
+	margin-right:50px;
+	margin-bottom:25px;
+	/*margin-top:25px;
+	border-radius: 75px;
+	-webkit-border-radius: 75px;
+	-moz-border-radius: 75px;
+	background: url(../images/chetana.jpg) no-repeat;
+	background-position:center;*/
+	background-image:url(../_images/saugat.jpg);
+}
+.ca-item-3 .ca-icon{
+	background-image:url(../_images/kiran.jpg);
+}
+.ca-item-4 .ca-icon{
+	background-image:url(../_images/sanid.jpg);
+}
+.ca-item-5 .ca-icon{
+	background-image:url(../_images/umesh.jpg);
+}
+.ca-item-6 .ca-icon{
+	background-image:url(../_images/mahaseth.jpg);
+}
+.ca-item-7 .ca-icon{
+	background-image:url(../_images/chetana.jpg);
+}
+.ca-item-8 .ca-icon{
+background-image:url(../_images/bijay.jpg);
+}
+
+.ca-item-9 .ca-icon{
+background-image:url(../_images/kshitij.jpg);
+}
+/*
+.ca-item h3{
+	font-family: 'Coustard', sans-serif;
+	text-transform:uppercase;
+	font-size:30px;
+	color:#000;
+	margin-bottom:20px;
+	height:85px;
+	text-align:center;
+	text-shadow: 0px 1px 1px #e4ebe9;
+}*/
+
+.ca-nav span{
+	width:25px;
+	height:38px;
+	background:transparent url(../_images/arrows.png) no-repeat top left;
+	position:absolute;
+	top:50%;
+	margin-top:-19px;
+	left:-40px;
+	text-indent:-9000px;
+	opacity:0.7;
+	cursor:pointer;
+	z-index:100;
+}
+.ca-nav span.ca-nav-next{
+	background-position:top right;
+	left:auto;
+	right:-40px;
+}
+.ca-nav span:hover{
+	opacity:1.0;
+}
+
+.size{
+	width: 80%;
+	min-height:380px;
+	background-color:#62505f;
+	opacity:.8;	
+	padding-top:20px;
+	/*margin-bottom:125px;
+	margin-top:122px;*/
+	
+}
+
+
+.username{
+	font-size:18px;
+	padding-bottom:18px;
+	
+}
+
+.specialist{
+	font-size:18px;
+}
+
+.size ul{
+	list-style-type: none;
+    margin-top:20px;
+	
+    padding: 3px;
+}
+.size ul li{
+	display:inline;
+	margin-left:5px;
+	margin-right:5px;
+}
+
+.container{
+	/*margin-bottom:125px;*/
+	margin-top:50px;
+	padding-bottom:125px;
+}
+
